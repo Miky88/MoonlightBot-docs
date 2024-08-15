@@ -21,10 +21,10 @@ jobs:
     name: calibreapp/image-actions
     runs-on: ubuntu-latest
     # Only run on main repo on and PRs that match the main repo.
-    # if: |
-    #   github.repository == 'example/example_repo' &&
-    #   (github.event_name != 'pull_request' ||
-    #    github.event.pull_request.head.repo.full_name == github.repository)
+    if: |
+      github.repository == 'MoonlightCapital/MoonlightBot-docs' &&
+      (github.event_name != 'pull_request' ||
+       github.event.pull_request.head.repo.full_name == github.repository)
     steps:
       - name: Checkout Branch
         uses: actions/checkout@v3
@@ -35,6 +35,7 @@ jobs:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
           # For non-Pull Requests, run in compressOnly mode and we'll PR after.
           compressOnly: ${{ github.event_name != 'pull_request' }}
+          pngQuality: '100'
       - name: Create Pull Request
         # If it's not a Pull Request then commit any changes as a new PR.
         if: |
