@@ -1,6 +1,6 @@
 # premium
 
-This command allows you to learn about [Premium](/support/premium.md) subscriptions and manage your own.
+This command allows you to learn about [MoonlightBot Premium](/support/premium.md) subscriptions and manage your subscription status.
 
 ## Required permissions
 
