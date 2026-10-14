@@ -59,7 +59,7 @@ No! There's absolutely no reason to worry about potential data losses as Moonlig
 
 ## Is there a limit to the number of temporary actions a server can have?
 
-Yes. Each server can have up to **100** temporary actions (temporary roles, paused roles, temporary bans and so on) active at the same time, to ensure smooth operations for everyone.
+Yes, each server can have up to **100** temporary actions active at the same time. This means that if you have 100 temporary actions running concurrently, you won't be able to start any new temporary actions until one of the existing ones completes and frees up a slot.
 
 When your server is 5 or fewer actions away from the limit, a warning appears in the output of commands like [`/temprole`](/role-management-commands/temprole.md) and [`/pause-role`](/role-management-commands/pause-role.md), so you can plan ahead. If your server is running into this limit, [contact support](https://discord.gg/hNQWVVC) and ask for it to be raised free of charge.
 
