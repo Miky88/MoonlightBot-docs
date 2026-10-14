@@ -16,11 +16,11 @@ For more information on editing permission requirements for specific users/roles
 
 ## info
 
-This command shows information about your Premium subscription. Depending on your situation, it will display one of the following:
+This subcommand shows information about Premium subscriptions. Depending on your situation, it will display one of the following:
 
 * **You're not a subscriber**: You'll see the Premium overview, which includes a brief introduction, tier selector buttons above the tier's banner image, a list of benefits for the selected tier, and buttons explaining how to obtain that tier. If you're not eligible for a [volunteer position](/support/volunteering.md) yet, you can ask to be reminded once you are.
 * **Your server has a Premium subscription**: You'll see information about the representative of the subscription.
-* **You hold a subscription yourself**: You'll see information about your subscription, including the tier, benefits, and any associated servers.
+* **You hold a subscription yourself**: You'll see information about your subscription.
 
 {% hint style="info" %}
 The overview shown to non-subscribers was completely remade in version 4.8.0, currently available on [MoonlightBot beta](/support/beta.md).
@@ -40,7 +40,7 @@ MoonlightBot requires the following permissions to successfully execute this sub
 
 ## enable
 
-This command allows a new [Patreon](https://www.patreon.com/MoonlightCapital) subscriber to enable their subscription themselves, without waiting for Staff. To successfully enable your subscription, the following conditions must be met:
+This subcommand allows a new [Patreon](https://www.patreon.com/MoonlightCapital) subscriber to enable their subscription themselves, without waiting for Staff. To successfully enable your subscription, the following conditions must be met:
 
 * You must be a member of the [support server](https://discord.gg/hNQWVVC).
 * Your Discord account must be [connected on Patreon's site](https://support.patreon.com/hc/en-us/articles/212052266-Getting-Discord-access).

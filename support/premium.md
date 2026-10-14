@@ -115,7 +115,7 @@ Reporting bugs or submitting acceptable suggestions may also occasionally award 
 
 How your subscription gets activated depends on how you obtained it:
 
-* **Patreon**: [Connect your Discord account on Patreon's site](https://support.patreon.com/hc/en-us/articles/212052266-Getting-Discord-access) first. It has to be an actual paid subscription (a pledge), otherwise MoonlightBot can't tell that you're pledging. Then run [`/premium enable`](/miscellaneous-commands/premium.md#enable) in the [support server](https://discord.gg/hNQWVVC). If you changed your pledge for extra server slots, run it again.
+* **Patreon**: [Connect your Discord account on Patreon's site](https://support.patreon.com/hc/en-us/articles/212052266-Getting-Discord-access) first. It has to be an actual paid subscription (a pledge), otherwise MoonlightBot can't tell that you're pledging. Then run [`/premium enable`](/miscellaneous-commands/premium.md#enable) from anywhere, as long as you are a member of the [support server](https://discord.gg/hNQWVVC). If you changed your pledge for extra server slots, run it again.
 * **Any other method** (votes, server boosts, volunteering, giveaways): your subscription is activated as described in the relevant section above, and you will be notified by direct message
 
 {% hint style="info" %}
@@ -139,11 +139,11 @@ Then, follow these steps to make sure everything is in order:
 
 ### Expiration
 
-When a subscription "gracefully expires," it means that its expiration date is set to the start of the next month, unless it already had an expiration date. For example, [translator](/support/volunteering.md#translator) subscriptions last 2 weeks and keep renewing while the translator meets their quota. When a subscription expires, you will receive a DM from MoonlightBot.
+When a subscription "gracefully expires," it means that its expiration date is set to the start of the next month, unless it already had an expiration date. For example, [translator](/support/volunteering.md#translator) subscriptions last 2 weeks and keep renewing while the translator meets their quota. When a subscription expires, you will receive a DM from MoonlightBot. Its content depends on where the subscription came from (Patreon, votes, server boosts, a volunteer position, and so on) and, in some cases, on which instance sends it.
 
 ### Declined payments
 
-If your Patreon payment is declined, your subscription will be marked as declined. Until the payment goes through, your subscription will be suspended, which means you will lose your Premium role, the subscription itself, and any server you represent. You will receive a DM about the declined payment.
+If your Patreon payment is declined, your subscription will be marked as declined. Until the payment goes through, your subscription will be suspended, which means you will temporarily lose your Premium role, and any server you represent will lose its Premium benefits. You will receive a DM about the declined payment, whose content depends on which instance sends it.
 
 {% hint style="info" %}
 Expiration messages and automatic suspension were introduced in version 4.8.0, currently available on [MoonlightBot beta](/support/beta.md).
