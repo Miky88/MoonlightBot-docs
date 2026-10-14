@@ -44,7 +44,9 @@ This subcommand allows a new [Patreon](https://www.patreon.com/MoonlightCapital)
 
 * You must be a member of the [support server](https://discord.gg/hNQWVVC).
 * Your Discord account must be [connected on Patreon's site](https://support.patreon.com/hc/en-us/articles/212052266-Getting-Discord-access).
-* You must have an actual active (paid) pledge on Patreon.
+* Your Patreon account must not have already been used to enable a subscription for a different Discord account.
+* You must have an actual active (paid) pledge to one of the [tiers](/support/premium.md#tiers) on Patreon.
+* Your latest Patreon payment must have gone through during the current month.
 
 If you change your pledge for extra server slots, run the command again to update your allowance.
 
