@@ -16,11 +16,11 @@ For more information on editing permission requirements for specific users/roles
 
 ## info
 
-This subcommand shows information about Premium subscriptions, depending on your situation:
+This command shows information about your Premium subscription. Depending on your situation, it will display one of the following:
 
-* If you are **not a subscriber**, it shows an overview of Premium: a brief description, then a banner and the list of benefits for each tier, with buttons to switch between tiers (each tier includes all the benefits of the lower ones). At the bottom, buttons explain every method of obtaining a subscription of that tier. If you haven't been using MoonlightBot for long enough to be eligible for a [volunteer position](/support/volunteering.md), you can also ask to be reminded once you become eligible
-* If your **server has a Premium subscription**, it tells you who the representative is
-* If you are a **subscription holder** yourself, it shows information about your subscription
+* **You're not a subscriber**: You'll see the Premium overview, which includes a brief introduction, tier selector buttons above the tier's banner image, a list of benefits for the selected tier, and buttons explaining how to obtain that tier. If you're not eligible for a [volunteer position](/support/volunteering.md) yet, you can ask to be reminded once you are.
+* **Your server has a Premium subscription**: You'll see information about the representative of the subscription.
+* **You hold a subscription yourself**: You'll see information about your subscription, including the tier, benefits, and any associated servers.
 
 {% hint style="info" %}
 The overview shown to non-subscribers was completely remade in version 4.8.0, currently available on [MoonlightBot beta](/support/beta.md).
@@ -40,9 +40,15 @@ MoonlightBot requires the following permissions to successfully execute this sub
 
 ## enable
 
-This subcommand allows a new [Patreon](https://www.patreon.com/MoonlightCapital) subscriber to enable their subscription on their own, without waiting for a Staff member to do it manually: all the needed data is fetched directly from the Patreon API. You can run it anywhere, as long as you are a member of the [support server](https://discord.gg/hNQWVVC). If you are already subscribed and later adjust your pledge to add extra server slots, run this command again to update your allowance accordingly.
+This command allows a new [Patreon](https://www.patreon.com/MoonlightCapital) subscriber to enable their subscription themselves, without waiting for Staff. To successfully enable your subscription, the following conditions must be met:
 
-Once enabled, subscribers of the Advanced tier or higher can add the MoonlightBot Premium instance to their servers, as described in the [activation guide](/support/premium.md#activation).
+* You must be a member of the [support server](https://discord.gg/hNQWVVC).
+* Your Discord account must be [connected on Patreon's site](https://support.patreon.com/hc/en-us/articles/212052266-Getting-Discord-access).
+* You must have an actual active (paid) pledge on Patreon.
+
+If you change your pledge for extra server slots, run the command again to update your allowance.
+
+After enabling your subscription, if you are on the Advanced tier or higher, you can add the Premium bot to your server. For instructions, see the [activation guide](/support/premium.md#activation).
 
 {% hint style="info" %}
 This subcommand was introduced in version 4.8.0, currently available on [MoonlightBot beta](/support/beta.md).

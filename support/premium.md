@@ -115,7 +115,7 @@ Reporting bugs or submitting acceptable suggestions may also occasionally award 
 
 How your subscription gets activated depends on how you obtained it:
 
-* **Patreon**: once your pledge is active, run [`/premium enable`](/miscellaneous-commands/premium.md#enable). You can use the command anywhere, as long as you are a member of the support server: MoonlightBot fetches your subscription data directly from Patreon and activates your perks immediately, without waiting for Staff intervention. If you later adjust your pledge to add extra server slots, run the command again to update your allowance
+* **Patreon**: [Connect your Discord account on Patreon's site](https://support.patreon.com/hc/en-us/articles/212052266-Getting-Discord-access) first. It has to be an actual paid subscription (a pledge), otherwise MoonlightBot can't tell that you're pledging. Then run [`/premium enable`](/miscellaneous-commands/premium.md#enable) in the [support server](https://discord.gg/hNQWVVC). If you changed your pledge for extra server slots, run it again.
 * **Any other method** (votes, server boosts, volunteering, giveaways): your subscription is activated as described in the relevant section above, and you will be notified by direct message
 
 {% hint style="info" %}
@@ -127,7 +127,9 @@ Then, follow these steps to make sure everything is in order:
 1. In the support server, check your privacy settings (from desktop: right click the server icon; from mobile: tap the three dots at the top next to the server name and scroll down). Make sure you set to allow direct messages from server members. This is important as you will receive a direct message from MoonlightBot (or the premium one, depending on your selected tier) confirming your subscription was activated successfully
 2. If your settings are configured correctly but have not received any message within 12 hours, reach out to the Staff team for assistance
 
-    ![The message shown when a Premium subscription is successfully activated](/.gitbook/assets/PremiumSuccessfulActivationMessage.png)
+    ![The activation message sent by MoonlightBot](/.gitbook/assets/PremiumActivationMessageStandard.png)
+
+    ![The activation message sent by MoonlightBot Premium](/.gitbook/assets/PremiumActivationMessagePremium.png)
 
 3. If your tier is Advanced or higher, you can now add the MoonlightBot Premium instance to your server(s). **Verify the bot is legitimate** first by clicking on the bot name to view information. The main instance of MoonlightBot has a verified check mark next to the username and was created on March 18th, 2018. The Premium instance also has a verified check mark next to the username and was created on March 27, 2020.
 
@@ -137,9 +139,11 @@ Then, follow these steps to make sure everything is in order:
 
 ### Expiration
 
-When a Premium subscription gracefully expires, you will receive a direct message from MoonlightBot explaining what happened. The content of the message depends on where your subscription came from (Patreon, votes, server boosts, a volunteer position, and so on).
+When a subscription "gracefully expires," it means that its expiration date is set to the start of the next month, unless it already had an expiration date. For example, [translator](/support/volunteering.md#translator) subscriptions last 2 weeks and keep renewing while the translator meets their quota. When a subscription expires, you will receive a DM from MoonlightBot.
 
-If a Patreon payment is declined, the subscription is automatically marked as such, and both your Premium role and the subscription itself, including any server you represent, are suspended until the payment goes through.
+### Declined payments
+
+If your Patreon payment is declined, your subscription will be marked as declined. Until the payment goes through, your subscription will be suspended, which means you will lose your Premium role, the subscription itself, and any server you represent. You will receive a DM about the declined payment.
 
 {% hint style="info" %}
 Expiration messages and automatic suspension were introduced in version 4.8.0, currently available on [MoonlightBot beta](/support/beta.md).
@@ -158,6 +162,10 @@ All custom features must comply with Discord's [Developer Policy](https://discor
 For any question regarding custom commands, or to get started with their development, please contact a Staff member in our support server and we will be happy to assist you as best as we can.
 
 ## Premium Frequently Asked Questions
+
+### Do I need to be the server owner to have a subscription in a server?
+
+No, you don't need to be the server owner to have a subscription in a server. Whoever subscribes on Patreon gets the subscription and becomes the server's representative. Anyone with the Manage Server permission can do this. The representative is the team's point of contact for any technical or financial matters related to the subscription.
 
 ### Will I lose bot configuration and other data by switching to Premium?
 
