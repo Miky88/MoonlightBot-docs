@@ -63,7 +63,9 @@ Yes, by default a server can have up to **100** temporary actions active at the 
 
 Only temporary actions created manually with a command cannot go over the limit, automatically created actions, such as join-assignable roles continue being created even if the limit is reached but count towards the total.
 
-When your server is 5 or fewer actions away from the limit, a warning appears in the output of commands like [`/temprole`](/role-management-commands/temprole.md) and [`/pause-role`](/role-management-commands/pause-role.md), so you can plan ahead. If your server is running into this limit, [contact support](https://discord.gg/hNQWVVC) and ask for it to be raised free of charge.
+When your server is 5 or fewer actions away from the limit, a warning appears in the output of commands like [`/temprole`](/role-management-commands/temprole.md) and [`/pause-role`](/role-management-commands/pause-role.md), so you can plan ahead.
+
+If your server is running into this limit, [contact support](https://discord.gg/hNQWVVC) and request for the limit to be raised. We do this free of charge after you answered the necessary questions.
 
 ## Can I use bots to trigger MoonlightBot commands?
 
